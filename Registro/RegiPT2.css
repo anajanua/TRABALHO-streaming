@@ -1,0 +1,160 @@
+
+:root{
+    --corFundo: rgb(92, 92, 240);
+    --corFundo2: #ac58bd;
+    --corFundo3: #4d4d4d;
+
+}
+
+h1{
+
+font-size: 35px;
+font-family: Tahoma;
+
+}
+
+body {
+    font-family: Tahoma;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(var(--corFundo),var(--corFundo2));
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+section{ 
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    background-color: var(--corFundo3);
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: gray;
+   
+
+}
+input::placeholder{
+    color: white;
+}
+#Email,#Senha,#lembra,#Nome{
+    width: 100%;
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+
+    
+}
+#lembra{
+    display: flex;
+    justify-content: center;
+}
+#email,#senha,#nome{
+   width: 100%;
+}
+
+#Lembre{
+    border-radius: 15px;
+    accent-color: green;
+    border: none;
+}
+#Entrar{
+
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ac58bd;
+    color: white;
+    padding: 10px 24px;
+    width: 250px;
+    transition-duration: 0.4s;
+}
+#Entrar:hover{
+    background-color:rgb(165, 0, 151);
+  color: white;
+}
+
+#redes_sociais{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos{
+    width: 20px;
+    
+}
+.usar_redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+/* #LogGoogle,#LogInsta,#LogX{
+    display: flex;
+} */
+
+/* 
+
+
+#LogInsta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color:black;
+    width: 230px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+
+
+#btn_Google{
+    background:none;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+#btn_insta{
+    background:none;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+#LogGoogle{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+} */
