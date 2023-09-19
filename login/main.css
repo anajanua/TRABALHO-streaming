@@ -1,98 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --corFundo: rgb(92, 92, 240);
+    --corFundo2: #ac58bd;
+    --corFundo3: #4d4d4d;
+
+}
+
+h1{
+
+font-size: 35px;
+font-family: Tahoma;
+
+}
 
 body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #023047
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    width: 100%;
+    font-family: Tahoma;
     height: 100vh;
-    background-color: #480ca8;
-}
-
-.formLogin {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background: linear-gradient(var(--corFundo),var(--corFundo2));
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+section{ 
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    background-color: var(--corFundo3);
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 5px;
     border-radius: 7px;
-    padding: 40px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
-    gap: 5px
-}
-
-.areaLogin img {
-    width: 420px;
-}
-
-.formLogin h1 {
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
-    font-size: 2.3em;
-}
-
-.formLogin p {
-    display: inline-block;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 25px;
-}
-
-.formLogin input {
-    padding: 15px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    border-radius: 4px;
-    transition: all linear 160ms;
-    outline: none;
-}
-
-
-.formLogin input:focus {
-    border: 1px solid #f72585;
-}
-
-.formLogin label {
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.formLogin a {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 13px;
-    color: #555;
-    transition: all linear 160ms;
-}
-
-.formLogin a:hover {
-    color: #f72585;
-}
-
-.btn {
-    background-color: #f72585;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    border: none !important;
-    transition: all linear 160ms;
-    cursor: pointer;
-    margin: 0 !important;
+    border: none;
+    background-color: gray;
+   
 
 }
+input::placeholder{
+    color: white;
+}
+#Email,#Senha,#lembra{
+    width: 100%;
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
 
-.btn:hover {
-    transform: scale(1.05);
-    background-color: #ff0676;
+    
+}
+#lembra{
+    display: flex;
+    justify-content: center;
+}
+#email,#senha{
+   width: 100%;
+}
+
+#Lembre{
+    border-radius: 15px;
+    accent-color: green;
+    border: none;
+}
+#Entrar{
+
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ac58bd;
+    color: white;
+    padding: 10px 24px;
+    width: 250px;
+    transition-duration: 0.4s;
+}
+#Entrar:hover{
+    background-color:rgb(165, 0, 151);
+  color: white;
+}
+
+#redes_sociais{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos{
+    width: 25px;
+    margin-right: auto;
+}
+.usar_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+/* 
+
+
+#LogInsta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color:black;
+    width: 230px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
 
 }
+
+
+
+#btn_Google{
+    background:none;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+#btn_insta{
+    background:none;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+#LogGoogle{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+} */
