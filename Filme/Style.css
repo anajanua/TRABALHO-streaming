@@ -1,0 +1,54 @@
+:root{
+    --corFundo: rgb(92, 92, 240);
+    --corFundo2: #ac58bd;
+    --corFundo3: #4d4d4d;
+    --corHead: #0068df;
+    --corChat: #d3d3d3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.content-align {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#header{
+    padding: 10px;
+    text-align: center;
+    background: var(--corHead);
+}
+.body{
+
+    background-color: var(--corFundo3);
+}
+.vid {
+    width: 85rem;
+    height: 50rem;
+}
+#responses {
+    background-image: linear-gradient(var(--corFundo), var(--corFundo2));
+    height: 94.55%;
+    width: 100%;
+}
+#chatUser {
+    width: 140%;
+    height: 20px;
+}
+#foot{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: var(--corChat);
+    height: 5%;
+    width: 100%;
+}
+
+#back{
+
+display: block;
+margin-left: 1%;
+
+}
