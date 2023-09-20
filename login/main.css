@@ -96,8 +96,9 @@ input::placeholder{
 }
 .usar_redes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
     background-color: #ffffff;
     color: black;
     width: 240px;
@@ -107,6 +108,9 @@ input::placeholder{
     font-size: 20px;
     padding: 5px;
     
+}
+#logX{
+   background-color: rgb(0, 0, 0);
 }
 /* #LogGoogle,#LogInsta,#LogX{
     display: flex;

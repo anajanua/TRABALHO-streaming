@@ -7,24 +7,22 @@
 }
 
 h1{
-
-font-size: 35px;
-font-family: Tahoma;
-
+    font-size: 35px;
+    font-family: Tahoma;
 }
 
 body {
+    text-align: center;
     font-family: Tahoma;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(var(--corFundo),var(--corFundo2));
-    background-repeat: no-repeat;
+    background: linear-gradient(var(--corFundo),var(--corFundo2)) no-repeat;
     background-size: cover;
    
 }
 section{ 
-    width: 20%;
+    width: 30%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -45,26 +43,8 @@ input{
 
 }
 
-#lembra{
-    width: 100%;
-    font-family: Tahoma;
-    display: flex;
-    flex-direction: row;
-    margin: 7px;
+/*botões de registrar e de login*/
 
-    
-}
-#lembra{
-    display: flex;
-    justify-content: center;
-}
-
-
-#Lembre{
-    border-radius: 15px;
-    accent-color: green;
-    border: none;
-}
 #Registrar-se, #Login{
 
     border: none;
@@ -72,59 +52,13 @@ input{
     border-radius: 10px;
     background-color: #ac58bd;
     color: white;
-    padding: 10px 24px;
-    width: 250px;
+    padding: 15px;
+    width: 90%;
     transition-duration: 0.4s;
 }
+
+/*mouse por cima*/
 #Registrar-se:hover, #Login:hover{
     background-color:rgb(165, 0, 151);
-  color: white;
+    color: white;
 }
-
-
-/* 
-
-
-#LogInsta{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    color:black;
-    width: 230px;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 20px;
-
-}
-
-
-
-#btn_Google{
-    background:none;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-}
-
-#btn_insta{
-    background:none;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-}
-
-#LogGoogle{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    color: black;
-    width: 240px;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 20px;
-} */
