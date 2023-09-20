@@ -66,7 +66,7 @@ input::placeholder{
 
 #Lembre{
     border-radius: 15px;
-    accent-color: green;
+    accent-color: var(--corFundo2);
     border: none;
 }
 #Entrar{
@@ -77,7 +77,7 @@ input::placeholder{
     background-color: #ac58bd;
     color: white;
     padding: 10px 24px;
-    width: 250px;
+    width: 90%;
     transition-duration: 0.4s;
 }
 #Entrar:hover{
@@ -96,8 +96,9 @@ input::placeholder{
 }
 .usar_redes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 5px;
     background-color: #ffffff;
     color: black;
     width: 240px;
@@ -108,53 +109,3 @@ input::placeholder{
     padding: 5px;
     
 }
-/* #LogGoogle,#LogInsta,#LogX{
-    display: flex;
-} */
-
-/* 
-
-
-#LogInsta{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    color:black;
-    width: 230px;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 20px;
-
-}
-
-
-
-#btn_Google{
-    background:none;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-}
-
-#btn_insta{
-    background:none;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-}
-
-#LogGoogle{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    color: black;
-    width: 240px;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 20px;
-} */
