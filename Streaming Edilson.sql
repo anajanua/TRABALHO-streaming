@@ -1,3 +1,4 @@
+
 create database streaming;
 use streaming;
 
@@ -37,7 +38,7 @@ create table usuarios(
  validadeCartao date,
  cpf varchar(12),
  nomeCartao varchar(50),
- enderecoCartao varchar(100),
+ cep int,
  telCartao int
  );  
  
@@ -51,3 +52,8 @@ create table usuarios(
  caminhoServidor varchar(255)
  );
  
+ create table chat(
+    idChat int not null auto_increment primary key,
+    mensagem  varchar(500),
+    usuario varchar(50) 
+ );
