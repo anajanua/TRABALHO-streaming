@@ -17,4 +17,4 @@ Gabriel Arruda -> Ajudou a pegar recursos dos filmes a serem usados no site futu
 Gabriel Augusto -> Ajudou a criar o banco de dados;
 Khristopher Raphael -> 
 Raul -> Ajudou com ideias no design, corrigiu erros no design, fez a codificação em grande parte de telas como a de planos e sinopse;
-Wesley->Ajudou a criar algumas telas do wireframe como a de login e a catálogo, codificou grande parte dos sites.
+Wesley->Ajudou a criar algumas telas do wireframe como a de login e a catálogo, codificou grande parte dos sites. 
