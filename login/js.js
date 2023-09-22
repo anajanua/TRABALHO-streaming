@@ -8,4 +8,4 @@ const btn_link = (element,local) => {
 usar_redes.forEach(element=>{
     btn_link(element,"https://www.google.com.br/?hl=pt-BR");
 })
-btn_link(btn_entrar,"../sinopse/index.html");
+btn_link(btn_entrar,"../catalogo/catalogo.html");

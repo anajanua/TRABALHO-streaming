@@ -7,5 +7,5 @@ const btn_link = (element,local) => {
 
 
 
-btn_link(btn_res,"../Registro/Regi.html");
-btn_link(btn_entrar,"../login/login.html");
+btn_link(btn_res,"./Registro/Regi.html");
+btn_link(btn_entrar,"./login/login.html");

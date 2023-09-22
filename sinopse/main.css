@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Tahoma;
+    color:white;
+}
+
+.movie-trailer {
+    height:60vh;
+    width:100%;
+}
+
+.navbar {
+    background-color:rgb(31, 139, 226);
+}
+
+.search {
+    background-color:white;
+    border-radius:10vw;
+}
+
+.search svg {
+    transition: transform 0.5s ease;
+}
+
+.search svg:hover {
+    transform: scale(1.25);
+}
+
+#searchInput {
+    border: 0px solid black;
+}
+
+/* Aumentar Botões com o mouse encima */
+
+.btn {
+    transition: transform 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.25);
+}
