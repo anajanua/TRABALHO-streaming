@@ -43,10 +43,15 @@ input{
 
 }
 
+a, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 /*botões de registrar e de login*/
 
-#Registrar-se, #Login{
 
+#Registrar-se, #Login{
     border: none;
     font-size: 20px;
     border-radius: 10px;
@@ -56,6 +61,7 @@ input{
     width: 90%;
     transition-duration: 0.4s;
 }
+
 
 /*mouse por cima*/
 #Registrar-se:hover, #Login:hover{
