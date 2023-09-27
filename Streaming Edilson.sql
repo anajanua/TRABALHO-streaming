@@ -1,6 +1,12 @@
 
-create database streaming;
-use streaming;
+create database streaming_filmes;
+create database streaming_usuarios;
+create database streaming_cartao;
+create database streaming_servidor;
+create database streaming_chat;
+create database streaming_planos;
+
+use streaming_filmes;
 
 create table filmes(
 	idFilme int not null auto_increment primary key,
@@ -18,6 +24,8 @@ create table filmes(
     trailer blob
 );
 
+use streaming_usuarios;
+
 create table usuarios(
 	idUsuarios int not null auto_increment primary key,
     nomeUsuario varchar(50),
@@ -26,10 +34,22 @@ create table usuarios(
     fotoUsuario blob,
     historicoUsuario varchar (100),
     cartoesUsario varchar(50),
-    premiumUsuario tinyint,
+    planoUsuario tinyint,
     venciUsuario date
     );
-    
+
+use streaming_planos;
+
+create table planos(
+	idPlanos int not null auto_increment primary key, 
+    nomePlano varchar(20),
+    quantidadeAssinantes int,
+    beneficioPlanos varchar(255),
+    periodo varchar(10)
+);
+
+use streaming_cartao;
+
  create table cartao(
  idCartao int not null auto_increment primary key,
  numCartao int(16),
@@ -42,6 +62,8 @@ create table usuarios(
  telCartao int
  );  
  
+ use streaming_servidor;
+ 
  create table servidor(
  idServidor int not null auto_increment primary key,
  nomeServidor varchar(100),
@@ -52,8 +74,10 @@ create table usuarios(
  caminhoServidor varchar(255)
  );
  
+use streaming_chat; 
+ 
  create table chat(
     idChat int not null auto_increment primary key,
-    mensagem  varchar(500),
+    mensagem varchar(500),
     usuario varchar(50) 
  );
